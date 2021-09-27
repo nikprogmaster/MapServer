@@ -59,6 +59,6 @@ server.on('request', (req, res) => {
     res.end(resultStr)
 })
 
-server.listen(3000, () => console.log('Сервер работает'))
+server.listen(3000, '127.0.0.1', () => console.log('Сервер работает'))
 
 
